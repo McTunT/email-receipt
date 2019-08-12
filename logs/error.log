@@ -1,0 +1,63 @@
+2019/04/25 13:13:53 [notice] 6528#6584: signal process started
+2019/04/25 13:14:57 [notice] 15176#2232: signal process started
+2019/04/25 13:16:28 [notice] 8200#1936: signal process started
+2019/04/25 13:16:28 [error] 8200#1936: CreateFile() "C:\Users\McTunT\Desktop\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2019/04/25 13:16:49 [notice] 8684#3172: signal process started
+2019/04/25 13:16:49 [error] 8684#3172: CreateFile() "C:\Users\McTunT\Desktop\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2019/04/25 13:16:56 [notice] 13204#13584: signal process started
+2019/04/25 13:16:56 [error] 13204#13584: CreateFile() "C:\Users\McTunT\Desktop\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2019/04/25 13:18:19 [notice] 9104#4864: signal process started
+2019/04/25 13:18:19 [error] 9104#4864: CreateFile() "C:\Users\McTunT\Desktop\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2019/04/25 13:26:46 [notice] 13612#5892: signal process started
+2019/04/25 16:55:29 [notice] 940#11212: signal process started
+2019/04/26 09:39:05 [notice] 15088#14984: signal process started
+2019/04/26 09:39:05 [error] 15088#14984: OpenEvent("Global\ngx_reload_12036") failed (2: The system cannot find the file specified)
+2019/04/29 14:59:41 [emerg] 2820#11968: unexpected ";" in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:36
+2019/04/29 15:00:05 [emerg] 13688#1456: invalid number of arguments in "listen" directive in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:36
+2019/04/29 15:01:42 [emerg] 12372#4384: host not found in "default" of the "listen" directive in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:36
+2019/04/29 15:02:23 [emerg] 6380#4224: invalid port in "0" of the "listen" directive in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:36
+2019/04/29 15:03:00 [emerg] 12552#8632: invalid port in "0" of the "listen" directive in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:36
+2019/04/29 15:03:14 [notice] 6376#5528: signal process started
+2019/04/29 15:03:48 [emerg] 13476#12844: host not found in "off" of the "listen" directive in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:36
+2019/04/29 15:08:18 [emerg] 2648#10428: no "ssl_certificate" is defined for the "listen ... ssl" directive in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:35
+2019/04/29 15:08:25 [notice] 14100#7980: signal process started
+2019/04/29 15:09:44 [notice] 10696#7488: signal process started
+2019/04/29 15:10:41 [notice] 12116#13892: signal process started
+2019/04/29 15:15:31 [notice] 7596#13676: signal process started
+2019/04/29 16:53:35 [notice] 4028#5376: signal process started
+2019/05/13 14:11:14 [notice] 11672#10108: signal process started
+2019/05/13 14:34:28 [notice] 4184#11896: signal process started
+2019/05/14 16:30:25 [notice] 9620#7980: signal process started
+2019/05/14 16:32:19 [emerg] 232#16888: "location" directive is not allowed here in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:83
+2019/05/14 16:32:28 [emerg] 3684#13608: "location" directive is not allowed here in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:83
+2019/05/14 16:32:35 [emerg] 15664#14380: "location" directive is not allowed here in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:83
+2019/05/14 16:32:35 [emerg] 7308#1328: "location" directive is not allowed here in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:83
+2019/05/14 16:37:28 [emerg] 2032#5136: "location" directive is not allowed here in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:58
+2019/05/14 16:37:30 [emerg] 6272#10924: "location" directive is not allowed here in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:58
+2019/05/15 15:05:48 [emerg] 16872#16380: unknown directive "more_set_headers" in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:40
+2019/05/15 15:06:24 [emerg] 3844#16660: unknown directive "more_set_headers" in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:40
+2019/05/15 15:06:25 [emerg] 11164#5428: unknown directive "more_set_headers" in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:40
+2019/05/17 13:14:55 [error] 7104#10572: *1 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:14:57 [error] 7104#10572: *1 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:05 [error] 7104#10572: *1 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:20 [error] 7104#10572: *1 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:20 [error] 7104#10572: *1 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:21 [error] 7104#10572: *1 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:40 [notice] 16996#12340: signal process started
+2019/05/17 13:15:56 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:58 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:58 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:58 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:58 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:58 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:59 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:59 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:59 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:59 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:59 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:15:59 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:16:00 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:16:00 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:16:00 [error] 6444#4940: *5 CreateFile() "C:\Users\McTunT\Desktop\nginx/html/sba-receipt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sba-receipt HTTP/1.1", host: "localhost:8002", referrer: "http://localhost:8002/"
+2019/05/17 13:16:53 [emerg] 16900#8724: unknown directive "more_set_headers" in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:40
+2019/05/17 13:16:54 [emerg] 2216#13108: unknown directive "more_set_headers" in C:\Users\McTunT\Desktop\nginx/conf/nginx.conf:40

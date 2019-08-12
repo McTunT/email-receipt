@@ -1,0 +1,80 @@
+.btn {
+  border-radius: 4px;
+  transition: all 0.15s ease;
+  &.btn-login {
+    background-color: $colorPrimary;
+
+    &:focus,
+    &:hover {
+      background-color: darken($colorPrimary, 10%);
+      transform: translateY(1px);
+    }
+  }
+}
+
+.button-style {
+  /* 
+    1rem is the size of the spinner-width-sm in bootstrap 4
+    https://github.com/twbs/bootstrap/blob/master/scss/_variables.scss#L1078
+  */
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+  @media (min-width: 1281px) {
+    left: calc(27% - calc(1rem / 2));
+  }
+
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    left: calc(33% - calc(1rem / 2));
+  }
+
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+    left: calc(20% - calc(1rem / 2));
+  }
+
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    left: calc(32% - calc(1rem / 2));
+  }
+
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+  @media (min-width: 481px) and (max-width: 767px) {
+    left: calc(18% - calc(1rem / 2));
+  }
+
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+  @media (min-width: 320px) and (max-width: 480px) {
+    left: calc(32% - calc(1rem / 2));
+  }
+
+  @media (min-width: 120px) and (max-width: 320px) {
+    left: calc(50% - calc(1rem / 2));
+  }
+}
+
+.span-style {
+  /* 
+    we have to offset the inner child or else 
+    the spinner width will offset the center
+    of the child text 
+  */
+  margin-right: 1rem;
+}
