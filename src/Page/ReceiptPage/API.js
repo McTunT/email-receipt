@@ -7,7 +7,7 @@ export default axios.create({
     AccessControlAllowMethods: "*"
   },
   auth: {
-    username: "it_ausiris",
-    password: "itausiris@"
+    username: "username",
+    password: "password"
   }
 });
